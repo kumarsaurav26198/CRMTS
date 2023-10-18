@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:datePickerDialogTheme">@style/datePickerTheme</item>
+        <item name="android:timePickerDialogTheme">@style/timePickerTheme</item>
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="datePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">#496D8C</item>
+        <item name="colorControlActivated">#496D8C</item>
+        <item name="colorControlHighlight">#496D8C</item>
+    </style>
+
+    <style name="timePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#496D8C</item>
+        <item name="android:textColorPrimary">#496D8C</item>
+    </style>
+
+    <style name="Widget.CRM.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.CRM.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+</resources>
